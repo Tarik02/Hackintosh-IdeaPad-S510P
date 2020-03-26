@@ -1,95 +1,100 @@
-16:222  1:052  Found UEFI Acpi 2.0 RSDP at C2FFE014
-16:222  0:000  Saving ACPI tables from RSDP C2FFE014 to EFI\CLOVER\ACPI\origin ...
-16:222  0:000   C2FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-16:222  0:000    (Xsdt: C2FFE170, Rsdt: C2FFE0D4)
-16:222  0:000    C2FFE170: 'XSDT', 'CB-01', Rev: 1, Len: 228
-16:222  0:000    C2FFE0D4: 'RSDT', 'CB-01', Rev: 1, Len: 132
-16:222  0:000    Tables in Xsdt: 24
-16:222  0:000    0. C2FFB000: 'FACP', 'CB-01', Rev: 5, Len: 268
-16:222  0:000        (Dsdt: C2FEA000, Facs: C2F7C000, XDsdt: C2FEA000, XFacs: 0)
-16:222  0:000        C2FEA000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 55980
-16:224  0:001        C2F7C000: 'FACS', Ver: 2, Len: 64
-16:224  0:000    1. C2FFD000: 'ASF!', 'CB-01', Rev: 32, Len: 165
-16:224  0:000    2. C2FFA000: 'HPET', 'CB-01', Rev: 1, Len: 56
-16:224  0:000    3. C2FF9000: 'APIC', 'CB-01', Rev: 1, Len: 152
-16:224  0:000    4. C2FF8000: 'MCFG', 'CB-01', Rev: 1, Len: 60
-16:224  0:000    5. C2FE9000: 'SSDT', 'sensrhub', Rev: 1, Len: 512
-16:224  0:000    6. C2FE7000: 'SSDT', 'PtidDevc', Rev: 1, Len: 5732
-16:224  0:000    7. C2FE5000: 'SSDT', 'BR0_Rtd3', Rev: 1, Len: 4732
-16:224  0:000    8. C2FE3000: 'SSDT', 'HSW-FFRD', Rev: 1, Len: 7351
-16:224  0:000    9. C2FDF000: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 12876
-16:224  0:000    10. C2FDE000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1205
-16:224  0:000    11. C2FDD000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
-16:224  0:000    12. C2FD9000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13052
-16:224  0:000    13. C2FD8000: 'SSDT', 'SgPch', Rev: 1, Len: 1572
-16:224  0:000    14. C2FD7000: 'UEFI', 'CB-01', Rev: 1, Len: 66
-16:224  0:000    15. C2F56000: 'POAT', 'CB-01', Rev: 3, Len: 85
-16:224  0:000    16. C2FD6000: 'UEFI', 'CB-01', Rev: 1, Len: 62
-16:224  0:000    17. C2FD5000: 'FPDT', 'CB-01', Rev: 1, Len: 84
-16:224  0:000    18. C2FD4000: 'SLIC', 'CB-01', Rev: 1, Len: 374
-16:224  0:000    19. C2FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2822
-16:224  0:000    20. C2FD2000: 'UEFI', 'CB-01', Rev: 1, Len: 598
-16:224  0:000    21. C2FD1000: 'BGRT', 'CB-01', Rev: 1, Len: 56
-16:224  0:000    22. C2FD0000: 'CSRT', 'CB-01', Rev: 1, Len: 196
-16:224  0:000    23. C2FCF000: 'DMAR', 'CB-01', Rev: 1, Len: 176
-16:224  0:000    Tables in Rsdt: 24
-16:224  0:000    0. C2FFC000: 'FACP', 'CB-01', Rev: 1, Len: 116
-16:224  0:000        (Dsdt: C2FEA000, Facs: C2F7C000)
-16:224  0:000        C2FEA000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 55980
-16:226  0:001        C2F7C000: 'FACS', Ver: 2, Len: 64
-16:226  0:000    1. C2FFD000: 'ASF!', 'CB-01', Rev: 32, Len: 165
-16:226  0:000    2. C2FFA000: 'HPET', 'CB-01', Rev: 1, Len: 56
-16:226  0:000    3. C2FF9000: 'APIC', 'CB-01', Rev: 1, Len: 152
-16:226  0:000    4. C2FF8000: 'MCFG', 'CB-01', Rev: 1, Len: 60
-16:226  0:000    5. C2FE9000: 'SSDT', 'sensrhub', Rev: 1, Len: 512
-16:226  0:000    6. C2FE7000: 'SSDT', 'PtidDevc', Rev: 1, Len: 5732
-16:226  0:000    7. C2FE5000: 'SSDT', 'BR0_Rtd3', Rev: 1, Len: 4732
-16:226  0:000    8. C2FE3000: 'SSDT', 'HSW-FFRD', Rev: 1, Len: 7351
-16:226  0:000    9. C2FDF000: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 12876
-16:226  0:000    10. C2FDE000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1205
-16:226  0:000    11. C2FDD000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
-16:226  0:000    12. C2FD9000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13052
-16:226  0:000    13. C2FD8000: 'SSDT', 'SgPch', Rev: 1, Len: 1572
-16:226  0:000    14. C2FD7000: 'UEFI', 'CB-01', Rev: 1, Len: 66
-16:226  0:000    15. C2F56000: 'POAT', 'CB-01', Rev: 3, Len: 85
-16:226  0:000    16. C2FD6000: 'UEFI', 'CB-01', Rev: 1, Len: 62
-16:226  0:000    17. C2FD5000: 'FPDT', 'CB-01', Rev: 1, Len: 84
-16:226  0:000    18. C2FD4000: 'SLIC', 'CB-01', Rev: 1, Len: 374
-16:226  0:000    19. C2FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2822
-16:226  0:000    20. C2FD2000: 'UEFI', 'CB-01', Rev: 1, Len: 598
-16:226  0:000    21. C2FD1000: 'BGRT', 'CB-01', Rev: 1, Len: 56
-16:226  0:000    22. C2FD0000: 'CSRT', 'CB-01', Rev: 1, Len: 196
-16:226  0:000    23. C2FCF000: 'DMAR', 'CB-01', Rev: 1, Len: 176
-16:226  0:000  Found UEFI Acpi 1.0 RSDP at C2FFE000
-16:226  0:000  Printing ACPI tables from RSDP C2FFE000 ...
-16:226  0:000   C2FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
-16:226  0:000    (Rsdt: C2FFE038)
-16:226  0:000    C2FFE038: 'RSDT', 'CB-01', Rev: 1, Len: 132
-16:226  0:000    Tables in Rsdt: 24
-16:226  0:000    0. C2FFC000: 'FACP', 'CB-01', Rev: 1, Len: 116
-16:226  0:000        (Dsdt: C2FEA000, Facs: C2F7C000)
-16:226  0:000        C2FEA000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 55980
-16:228  0:001        C2F7C000: 'FACS', Ver: 2, Len: 64
-16:228  0:000    1. C2FFD000: 'ASF!', 'CB-01', Rev: 32, Len: 165
-16:228  0:000    2. C2FFA000: 'HPET', 'CB-01', Rev: 1, Len: 56
-16:228  0:000    3. C2FF9000: 'APIC', 'CB-01', Rev: 1, Len: 152
-16:228  0:000    4. C2FF8000: 'MCFG', 'CB-01', Rev: 1, Len: 60
-16:228  0:000    5. C2FE9000: 'SSDT', 'sensrhub', Rev: 1, Len: 512
-16:228  0:000    6. C2FE7000: 'SSDT', 'PtidDevc', Rev: 1, Len: 5732
-16:228  0:000    7. C2FE5000: 'SSDT', 'BR0_Rtd3', Rev: 1, Len: 4732
-16:228  0:000    8. C2FE3000: 'SSDT', 'HSW-FFRD', Rev: 1, Len: 7351
-16:228  0:000    9. C2FDF000: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 12876
-16:228  0:000    10. C2FDE000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1205
-16:228  0:000    11. C2FDD000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
-16:228  0:000    12. C2FD9000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13052
-16:228  0:000    13. C2FD8000: 'SSDT', 'SgPch', Rev: 1, Len: 1572
-16:228  0:000    14. C2FD7000: 'UEFI', 'CB-01', Rev: 1, Len: 66
-16:228  0:000    15. C2F56000: 'POAT', 'CB-01', Rev: 3, Len: 85
-16:228  0:000    16. C2FD6000: 'UEFI', 'CB-01', Rev: 1, Len: 62
-16:228  0:000    17. C2FD5000: 'FPDT', 'CB-01', Rev: 1, Len: 84
-16:228  0:000    18. C2FD4000: 'SLIC', 'CB-01', Rev: 1, Len: 374
-16:228  0:000    19. C2FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2822
-16:228  0:000    20. C2FD2000: 'UEFI', 'CB-01', Rev: 1, Len: 598
-16:228  0:000    21. C2FD1000: 'BGRT', 'CB-01', Rev: 1, Len: 56
-16:228  0:000    22. C2FD0000: 'CSRT', 'CB-01', Rev: 1, Len: 196
-16:228  0:000    23. C2FCF000: 'DMAR', 'CB-01', Rev: 1, Len: 176
+3:256  2:060  Found UEFI Acpi 2.0 RSDP at C2FFE014
+3:256  0:000  Saving ACPI tables from RSDP C2FFE014 to EFI\CLOVER\ACPI\origin ...
+3:256  0:000   C2FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+3:263  0:007    (Xsdt: C2FFE170, Rsdt: C2FFE0D4)
+3:263  0:000    C2FFE170: 'XSDT', 'CB-01', Rev: 1, Len: 228 -> XSDT.aml
+3:275  0:012    C2FFE0D4: 'RSDT', 'CB-01', Rev: 1, Len: 132 -> RSDT.aml
+3:289  0:013    Tables in Xsdt: 24
+3:289  0:000    0. C2FFB000: 'FACP', 'CB-01', Rev: 5, Len: 268 -> FACP.aml
+3:292  0:003        (Dsdt: C2FEA000, Facs: C2F7C000, XDsdt: C2FEA000, XFacs: 0)
+3:292  0:000        C2FEA000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 55980 -> DSDT.aml
+3:297  0:004        C2F7C000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+3:300  0:003    1. C2FFD000: 'ASF!', 'CB-01', Rev: 32, Len: 165 -> ASF!.aml
+3:303  0:003    2. C2FFA000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+3:306  0:003    3. C2FF9000: 'APIC', 'CB-01', Rev: 1, Len: 152 -> APIC.aml
+3:310  0:003    4. C2FF8000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+3:313  0:003    5. C2FE9000: 'SSDT', 'sensrhub', Rev: 1, Len: 512 -> SSDT-0-sensrhub.aml
+3:317  0:004    6. C2FE7000: 'SSDT', 'PtidDevc', Rev: 1, Len: 5732 -> SSDT-1-PtidDevc.aml
+3:322  0:004    7. C2FE5000: 'SSDT', 'BR0_Rtd3', Rev: 1, Len: 4732 -> SSDT-2-BR0_Rtd3.aml
+3:325  0:003    8. C2FE3000: 'SSDT', 'HSW-FFRD', Rev: 1, Len: 7351 -> SSDT-3-HSW-FFRD.aml
+3:329  0:003    9. C2FDF000: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 12876 -> SSDT-4-Ult0Rtd3.aml
+3:334  0:004    10. C2FDE000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1205 -> SSDT-5-Cpu0Ist.aml
+3:338  0:004    11. C2FDD000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-6-CpuPm.aml (Found hidden SSDT 4 pcs)
+3:341  0:003        * B53BEA98: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+3:341  0:000        * C2E72618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x6_0-ApIst.aml
+3:345  0:003        * C2E72C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x6_1-Cpu0Cst.aml
+3:348  0:003        * C2E71D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_2-ApCst.aml
+3:351  0:003  
+3:351  0:000    12. C2FD9000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13052 -> SSDT-7-SaSsdt.aml
+3:355  0:004    13. C2FD8000: 'SSDT', 'SgPch', Rev: 1, Len: 1572 -> SSDT-8-SgPch.aml
+3:359  0:003    14. C2FD7000: 'UEFI', 'CB-01', Rev: 1, Len: 66 -> UEFI.aml
+3:362  0:003    15. C2F56000: 'POAT', 'CB-01', Rev: 3, Len: 85 -> POAT.aml
+3:365  0:003    16. C2FD6000: 'UEFI', 'CB-01', Rev: 1, Len: 62 -> UEFI.aml
+3:369  0:003    17. C2FD5000: 'FPDT', 'CB-01', Rev: 1, Len: 84 -> FPDT.aml
+3:372  0:003    18. C2FD4000: 'SLIC', 'CB-01', Rev: 1, Len: 374 -> SLIC.aml
+3:375  0:003    19. C2FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2822 -> SSDT-9-NvOptTbl.aml
+3:380  0:005    20. C2FD2000: 'UEFI', 'CB-01', Rev: 1, Len: 598 -> UEFI.aml
+3:383  0:003    21. C2FD1000: 'BGRT', 'CB-01', Rev: 1, Len: 56 -> BGRT.aml
+3:387  0:003    22. C2FD0000: 'CSRT', 'CB-01', Rev: 1, Len: 196 -> CSRT.aml
+3:390  0:003    23. C2FCF000: 'DMAR', 'CB-01', Rev: 1, Len: 176 -> DMAR.aml
+3:394  0:003    Tables in Rsdt: 24
+3:394  0:000    0. C2FFC000: 'FACP', 'CB-01', Rev: 1, Len: 116 -> RSDT-FACP.aml
+3:398  0:004        (Dsdt: C2FEA000, Facs: C2F7C000)
+3:398  0:000        C2FEA000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 55980
+3:399  0:001        C2F7C000: 'FACS', Ver: 2, Len: 64
+3:399  0:000    1. C2FFD000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+3:399  0:000    2. C2FFA000: 'HPET', 'CB-01', Rev: 1, Len: 56
+3:399  0:000    3. C2FF9000: 'APIC', 'CB-01', Rev: 1, Len: 152
+3:399  0:000    4. C2FF8000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+3:399  0:000    5. C2FE9000: 'SSDT', 'sensrhub', Rev: 1, Len: 512
+3:399  0:000    6. C2FE7000: 'SSDT', 'PtidDevc', Rev: 1, Len: 5732
+3:399  0:000    7. C2FE5000: 'SSDT', 'BR0_Rtd3', Rev: 1, Len: 4732
+3:399  0:000    8. C2FE3000: 'SSDT', 'HSW-FFRD', Rev: 1, Len: 7351
+3:399  0:000    9. C2FDF000: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 12876
+3:399  0:000    10. C2FDE000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1205
+3:399  0:000    11. C2FDD000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:399  0:000    12. C2FD9000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13052
+3:399  0:000    13. C2FD8000: 'SSDT', 'SgPch', Rev: 1, Len: 1572
+3:399  0:000    14. C2FD7000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+3:399  0:000    15. C2F56000: 'POAT', 'CB-01', Rev: 3, Len: 85
+3:399  0:000    16. C2FD6000: 'UEFI', 'CB-01', Rev: 1, Len: 62
+3:399  0:000    17. C2FD5000: 'FPDT', 'CB-01', Rev: 1, Len: 84
+3:399  0:000    18. C2FD4000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+3:399  0:000    19. C2FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2822
+3:399  0:000    20. C2FD2000: 'UEFI', 'CB-01', Rev: 1, Len: 598
+3:399  0:000    21. C2FD1000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+3:399  0:000    22. C2FD0000: 'CSRT', 'CB-01', Rev: 1, Len: 196
+3:399  0:000    23. C2FCF000: 'DMAR', 'CB-01', Rev: 1, Len: 176
+3:399  0:000  Found UEFI Acpi 1.0 RSDP at C2FFE000
+3:399  0:000  Printing ACPI tables from RSDP C2FFE000 ...
+3:399  0:000   C2FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+3:399  0:000    (Rsdt: C2FFE038)
+3:399  0:000    C2FFE038: 'RSDT', 'CB-01', Rev: 1, Len: 132
+3:399  0:000    Tables in Rsdt: 24
+3:399  0:000    0. C2FFC000: 'FACP', 'CB-01', Rev: 1, Len: 116
+3:399  0:000        (Dsdt: C2FEA000, Facs: C2F7C000)
+3:399  0:000        C2FEA000: 'DSDT', 'HSW-LPT', Rev: 2, Len: 55980
+3:400  0:001        C2F7C000: 'FACS', Ver: 2, Len: 64
+3:400  0:000    1. C2FFD000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+3:400  0:000    2. C2FFA000: 'HPET', 'CB-01', Rev: 1, Len: 56
+3:400  0:000    3. C2FF9000: 'APIC', 'CB-01', Rev: 1, Len: 152
+3:400  0:000    4. C2FF8000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+3:400  0:000    5. C2FE9000: 'SSDT', 'sensrhub', Rev: 1, Len: 512
+3:400  0:000    6. C2FE7000: 'SSDT', 'PtidDevc', Rev: 1, Len: 5732
+3:400  0:000    7. C2FE5000: 'SSDT', 'BR0_Rtd3', Rev: 1, Len: 4732
+3:400  0:000    8. C2FE3000: 'SSDT', 'HSW-FFRD', Rev: 1, Len: 7351
+3:400  0:000    9. C2FDF000: 'SSDT', 'Ult0Rtd3', Rev: 1, Len: 12876
+3:400  0:000    10. C2FDE000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1205
+3:400  0:000    11. C2FDD000: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:400  0:000    12. C2FD9000: 'SSDT', 'SaSsdt', Rev: 1, Len: 13052
+3:400  0:000    13. C2FD8000: 'SSDT', 'SgPch', Rev: 1, Len: 1572
+3:400  0:000    14. C2FD7000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+3:400  0:000    15. C2F56000: 'POAT', 'CB-01', Rev: 3, Len: 85
+3:400  0:000    16. C2FD6000: 'UEFI', 'CB-01', Rev: 1, Len: 62
+3:400  0:000    17. C2FD5000: 'FPDT', 'CB-01', Rev: 1, Len: 84
+3:400  0:000    18. C2FD4000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+3:400  0:000    19. C2FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2822
+3:400  0:000    20. C2FD2000: 'UEFI', 'CB-01', Rev: 1, Len: 598
+3:400  0:000    21. C2FD1000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+3:400  0:000    22. C2FD0000: 'CSRT', 'CB-01', Rev: 1, Len: 196
+3:400  0:000    23. C2FCF000: 'DMAR', 'CB-01', Rev: 1, Len: 176

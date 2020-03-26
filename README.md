@@ -15,13 +15,15 @@
 - [ ] Ethernet (not sure)
 - [x] Camera (internal USB)
 - [x] Card Reader (internal USB)
-- [ ] Sleep + Wake (some strange problems with this, some issue with graphics)
+- [x] Sleep + Wake ~~(some strange problems with this, some issue with graphics)~~ Fixed by updating Intel ME firmware.
 - [x] Sleep/Wake by lid
 - [x] TouchPad (custom VoodooPS2)
-- [x] WiFi (original works slowly, replaced with BCM94352 + BIOS patch)
+- [x] WiFi (original works slowly and needs some kexts, replaced with BCM94352 + BIOS patch)
 - [ ] Bluetooth (original works only after reboot from supported OS, firmware issue)
 
-What about sleep/wake issue: laptop can't go sleep is it did not sleep some time longer than 2 hours (also, can't shutdown/reboot in such case). Also, if you put laptop to sleep and try to reboot after that, it reboots, but internal displays stays black until you put it to sleep and wake. That all seems to be some issue with graphics, but idk how to fix that.
+~~What about sleep/wake issue: laptop can't go sleep is it did not sleep some time longer than 2 hours (also, can't shutdown/reboot in such case).~~ Also, if you put laptop to sleep and try to reboot after that, it reboots, but internal displays stays black until you put it to sleep and wake. That all seems to be some issue with graphics, but idk how to fix that.
+
+Sleep has been fixed by updating Intel ME firmware. You need "9.5.* 1.5MB" firmware and Intel ME System Tools v9.5. You can flash new firmware using `FWUpdate -F firmware.bin`.
 
 ### Installation
 

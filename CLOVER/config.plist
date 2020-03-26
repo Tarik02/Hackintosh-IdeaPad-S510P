@@ -51,16 +51,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change OSID to XSID (to avoid match against _OSI XOSI patch)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>T1NJRA==</data>
-					<key>Replace</key>
-					<data>WFNJRA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
@@ -68,26 +58,6 @@
 					<data>X09TSQ==</data>
 					<key>Replace</key>
 					<data>WE9TSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _DSM to XDSM</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X0RTTQ==</data>
-					<key>Replace</key>
-					<data>WERTTQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>RUMwXw==</data>
-					<key>Replace</key>
-					<data>RUNfXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -139,39 +109,9 @@
 					<key>Replace</key>
 					<data>SERBVQ==</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change GPRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>FEAGR1BSVwI=</data>
-					<key>Replace</key>
-					<data>FEAGWFBSVwI=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _Q1D to XQ1D</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>FEEHX1ExRAA=</data>
-					<key>Replace</key>
-					<data>FEEHWFExRAA=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _Q1C to XQ1C</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>FEEHX1ExQwA=</data>
-					<key>Replace</key>
-					<data>FEEHWFExQwA=</data>
-				</dict>
 			</array>
 			<key>SlpSmiAtWake</key>
-			<true/>
+			<false/>
 			<key>SuspendOverride</key>
 			<false/>
 		</dict>
@@ -199,7 +139,7 @@
 			</dict>
 			<dict>
 				<key>Signature</key>
-				<string>SSDT</string>
+				<string>#SSDT</string>
 				<key>TableId</key>
 				<string>CpuPm</string>
 			</dict>
@@ -268,7 +208,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=1 darkwake=0 no32exec=0 msgbuf=1048576 brcmfx-country=#a keepsyms=1</string>
+		<string>dart=1 darkwake=1 no32exec=0 msgbuf=1048576 brcmfx-country=#a keepsyms=1</string>
 		<key>CustomLogo</key>
 		<string>Alternate</string>
 		<key>DefaultVolume</key>
@@ -306,51 +246,47 @@
 		<false/>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0)/Pci(0x02,0)</key>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>device-id</key>
+				<data>Oh4AAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<dict>
+				<key>layout-id</key>
+				<data>AwAAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BQAmCg==</data>
+				<data>BgAmCg==</data>
 				<key>device-id</key>
 				<data>EgQAAA==</data>
 				<key>disable-external-gpu</key>
-				<integer>1</integer>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
-				<integer>1</integer>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-flags</key>
-				<integer>144</integer>
+				<data>MAAAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<integer>1</integer>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-pipe</key>
 				<data>EgAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<integer>0</integer>
+				<data>AAAAAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
+				<data>AQAAAA==</data>
 				<key>framebuffer-portcount</key>
-				<integer>2</integer>
+				<data>AgAAAA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 			</dict>
-			<key>PciRoot(0)/Pci(0x03,0)</key>
+			<key>PciRoot(0x0)/Pci(0x3,0x0)</key>
 			<dict>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>layout-id</key>
-				<integer>3</integer>
-			</dict>
-			<key>PciRoot(0)/Pci(0x16,0)</key>
-			<dict>
-				<key>device-id</key>
-				<data>Oh4AAA==</data>
-				<key>layout-id</key>
-				<integer>3</integer>
-			</dict>
-			<key>PciRoot(0)/Pci(0x1b,0)</key>
-			<dict>
-				<key>layout-id</key>
-				<integer>3</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -424,13 +360,13 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>#EDID</key>
+		<key>#ig-platform-id</key>
+		<string>0x0a260006</string>
+		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
 			<false/>
 		</dict>
-		<key>#ig-platform-id</key>
-		<string>0x0a260006</string>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -507,20 +443,6 @@
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>AAAAAAAAAAAAAAA=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AppleGraphicsDevicePolicy (board-id) Patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>Ym9hcmQtaWQ=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleGraphicsDevicePolicy</string>
-				<key>Replace</key>
-				<data>Ym9hcmQtaXg=</data>
 			</dict>
 		</array>
 	</dict>
