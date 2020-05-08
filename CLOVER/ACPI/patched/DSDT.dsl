@@ -3442,10 +3442,26 @@ DefinitionBlock ("", "DSDT", 2, "LENOVO", "HSW-LPT", 0x00000000)
                             0x0070,             // Range Minimum
                             0x0070,             // Range Maximum
                             0x01,               // Alignment
-                            0x02,               // Length
+                            0x08,               // Length
                             )
+                        IRQNoFlags ()
+                            {8}
                     })
                 }
+
+                //Device (RTC)
+                //{
+                //    Name (_HID, EisaId ("PNP0B00") /* AT Real-Time Clock */)  // _HID: Hardware ID
+                //    Name (_CRS, ResourceTemplate ()  // _CRS: Current Resource Settings
+                //    {
+                //        IO (Decode16,
+                //            0x0070,             // Range Minimum
+                //            0x0070,             // Range Maximum
+                //            0x01,               // Alignment
+                //            0x02,               // Length
+                //            )
+                //    })
+                //}
 
                 Device (TIMR)
                 {
